@@ -33,6 +33,12 @@ During analyzing `u.user`, I calculate some statistics:
 
 ### Data preprocessing
 
+I do all data preprocessing in `movie_cosine_similarity.ipynb`. I use only `u.data` data.
+
+What I do:
+
+1. 
+
 # Model Implementation
 
 ...
