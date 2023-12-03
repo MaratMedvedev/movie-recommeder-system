@@ -137,4 +137,11 @@ The evaluation the model's performance using different numbers of neighbors:
 ![img.png](figures/model_RMSEs.png)
 
 ### Conclusion
+Based on the graph above, we can make three observations:
 
+1. The more the model knows about user preferences, the better it predicts ratings (Obviously)
+2. model works better when number of neighbours is maximum possible value.
+3. strange rapid growth of the RMSE for the small number of neighbours.
+
+From the second and third observations, we can conclude that there is no strong correlation between items.
+Therefore, it is important for models to gather information about as many items as possible so that the weighted average formula calculates predictions more accurately.
