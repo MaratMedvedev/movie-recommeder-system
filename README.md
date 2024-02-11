@@ -1,6 +1,6 @@
 # Introduction
 
-In this report, I present an item-to-item collaborative filtering recommendation system based on centered cosine similarity (Pearson correlation). 
+Here, I implement an item-to-item collaborative filtering recommendation system based on centered cosine similarity (Pearson correlation). 
 Also, baseline estimate used for improving model prediction quality. 
 Collaborative filtering is a popular technique for making personalized recommendations by leveraging user-item interactions.
 The code implements a recommendation model using Nearest Neighbors with cosine similarity and incorporates a baseline estimation approach to predict user-item ratings.
